@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline:0;
+    font-family: 'Fjalla One', sans-serif;
+}   
+.main-container{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+section{
+    margin-bottom: 10px;
+}
+.flexible-container{
+    display: flex;
+    align-items: center;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 60%;
+}
+.half-width>*{
+    margin: 20px 0;
+}
+.head-text-style{
+    border-left: 5px solid red;
+    padding: 0 10px;
+}
+.main-button{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: coral;
+    color: white;
+    border-radius: 5px;
+    transition: .3s all ease-in-out;
+}
+.main-button:hover{
+    background-color: white;
+    color: coral;
+    border: 1px solid coral;
+}
+.card-style{
+    min-height: 200px;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+
+footer{
+    font-family: 'Fjalla One', sans-serif;
+    background-color:rgb(3, 3, 12);
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
